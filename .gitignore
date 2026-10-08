@@ -1,0 +1,31 @@
+# ---- Quartus build / database output ----
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+
+# ---- Programming files and archives ----
+*.sof
+*.pof
+*.qar
+
+# ---- Reports and status files ----
+*.rpt
+*.summary
+*.smsg
+*.done
+
+# ---- Workspace / backup files ----
+*.qws
+*.bak
+
+# ---- Regenerated or machine-specific leftovers ----
+*.qdf
+*.qarlog
+qar_info.json
+c5_pin_model_dump.txt
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
